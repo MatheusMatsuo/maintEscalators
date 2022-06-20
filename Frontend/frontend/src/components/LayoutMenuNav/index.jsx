@@ -1,4 +1,5 @@
-import { Nav } from '../Nav'
+
+import jpIMG from '../../assets/logo.png';
 import './styles.css'
 
 
@@ -12,6 +13,9 @@ export const LayoutMenuNav = () => {
                     <header>
                         <div className="redlack-titulo">
                         <a href="/register">MaintEscalators</a>
+                        </div>
+                        <div className="redlack-contact-container">
+                        <img src={jpIMG} className="logo-redlack" alt="Jovem Programador" />
                         </div>
                     </header>
                     <ul class="nav">
@@ -31,12 +35,6 @@ export const LayoutMenuNav = () => {
                             </a>
                         </li>
                     </ul>
-                </div>
-
-                <div id="content">
-                        <div class="container-fluid">
-                            <Nav />
-                        </div>
                 </div>
             </div>
         </div>
